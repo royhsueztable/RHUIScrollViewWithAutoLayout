@@ -39,7 +39,7 @@
 
 - (NSInteger)randomCellsCount
 {
-    return (arc4random() % 5) + 1;
+    return (arc4random() % 6);
 }
 
 - (void)viewDidLayoutSubviews
